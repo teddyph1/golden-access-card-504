@@ -1,0 +1,179 @@
+{
+  "managementURL": "https://example.com/manage/SK042",
+  "changeSeatURL": "https://example.com/seats/SK042",
+  "purchaseWifiURL": "https://example.com/wifi/SK042",
+  "orderFoodURL": "https://example.com/meals/SK042",
+  "upgradeURL": "https://example.com/upgrade/SK042",
+  "purchaseAdditionalBaggageURL": "https://example.com/baggage/SK042",
+  "purchaseLoungeAccessURL": "https://example.com/lounge/SK042",
+  "requestWheelchairURL": "https://example.com/accessibility/wheelchair/SK042",
+  "registerServiceAnimalURL": "https://example.com/accessibility/service-animal/SK042",
+  "reportLostBagURL": "https://example.com/bags/lost/SK042",
+  "trackBagURL": "https://example.com/bags/SK042",
+  "transitProviderPhoneNumber": "+14155550101",
+  "transitProviderEmail": "support@example.com",
+  "transitProviderWebsiteURL": "https://example.com/airline",
+  "formatVersion": 1,
+  "passTypeIdentifier": "pass.mk.local",
+  "teamIdentifier": "9733K94JUG",
+  "serialNumber": "5DA6845866F65959",
+  "organizationName": "Golden Access Card 504",
+  "description": "Apple Wallet Pass 项目",
+  "foregroundColor": "rgb(255, 255, 255)",
+  "backgroundColor": "rgb(30, 64, 175)",
+  "labelColor": "rgb(191, 219, 254)",
+  "boardingPass": {
+    "headerFields": [
+      {
+        "key": "h1",
+        "label": "GATE",
+        "value": "B14"
+      },
+      {
+        "key": "h2",
+        "label": "SEAT",
+        "value": "14A"
+      }
+    ],
+    "primaryFields": [
+      {
+        "key": "from",
+        "label": "San Francisco",
+        "value": "SFO"
+      },
+      {
+        "key": "to",
+        "label": "New York",
+        "value": "JFK"
+      }
+    ],
+    "secondaryFields": [
+      {
+        "key": "s1",
+        "label": "PASSENGER",
+        "value": "Attendee 7621"
+      },
+      {
+        "key": "s2",
+        "label": "FLIGHT",
+        "value": "SK 042"
+      }
+    ],
+    "auxiliaryFields": [
+      {
+        "key": "dep",
+        "label": "BOARDS",
+        "value": "3:06 PM"
+      },
+      {
+        "key": "arr",
+        "label": "ARRIVES",
+        "value": "9:16 PM"
+      }
+    ],
+    "backFields": [
+      {
+        "key": "b1",
+        "label": "Notes",
+        "value": "Arrive at the gate at least 30 minutes before departure.",
+        "dataDetectorTypes": []
+      }
+    ],
+    "transitType": "PKTransitTypeAir"
+  },
+  "logoText": "Golden Access Card 504",
+  "semantics": {
+    "airlineCode": "SK",
+    "flightCode": "SK042",
+    "flightNumber": 42,
+    "confirmationNumber": "9X2K7Q",
+    "departureAirportCode": "SFO",
+    "departureAirportName": "San Francisco International Airport",
+    "departureCityName": "San Francisco",
+    "departureLocationTimeZone": "America/Los_Angeles",
+    "destinationAirportCode": "JFK",
+    "destinationAirportName": "John F. Kennedy International Airport",
+    "destinationCityName": "New York",
+    "destinationLocationTimeZone": "America/New_York",
+    "originalBoardingDate": "2026-05-10T07:06:18.004Z",
+    "originalDepartureDate": "2026-05-10T07:46:18.004Z",
+    "originalArrivalDate": "2026-05-10T13:16:18.004Z",
+    "currentDepartureDate": "2026-05-10T07:46:18.004Z",
+    "currentArrivalDate": "2026-05-10T13:16:18.004Z",
+    "passengerName": {
+      "givenName": "Attendee",
+      "familyName": "7621"
+    },
+    "departureGate": "B14",
+    "departureTerminal": "2",
+    "departureLocation": {
+      "latitude": 37.6213,
+      "longitude": -122.379
+    },
+    "destinationGate": "A8",
+    "destinationTerminal": "4",
+    "destinationLocation": {
+      "latitude": 40.6413,
+      "longitude": -73.7781
+    },
+    "boardingGroup": "2",
+    "boardingSequenceNumber": "038",
+    "boardingZone": "A",
+    "ticketFareClass": "Economy",
+    "transitProvider": "Scandinavian Airlines",
+    "transitStatus": "On Time",
+    "securityScreening": "TSA PreCheck",
+    "priorityStatus": "Priority",
+    "membershipProgramName": "Kumo Miles",
+    "membershipProgramNumber": "SK123456789",
+    "membershipProgramStatus": "Gold",
+    "vehicleName": "Airbus A350",
+    "vehicleNumber": "SE-RSA",
+    "vehicleType": "Airplane",
+    "internationalDocumentsAreVerified": true,
+    "internationalDocumentsVerifiedDeclarationName": "DOCS OK",
+    "passengerEligibleSecurityPrograms": [
+      "PKTransitSecurityProgramTSAPreCheck"
+    ],
+    "departureLocationSecurityPrograms": [
+      "PKTransitSecurityProgramTSAPreCheck",
+      "PKTransitSecurityProgramCLEAR"
+    ],
+    "destinationLocationSecurityPrograms": [
+      "PKTransitSecurityProgramTSAPreCheck"
+    ],
+    "loungePlaceIDs": [
+      "SK-SFO-LOUNGE"
+    ],
+    "passengerCapabilities": [
+      "PKPassengerCapabilityCarryon",
+      "PKPassengerCapabilityPriorityBoarding"
+    ],
+    "passengerServiceSSRs": [
+      "PETC"
+    ],
+    "passengerInformationSSRs": [
+      "INFT"
+    ],
+    "passengerAirlineSSRs": [
+      "SKY"
+    ],
+    "seats": [
+      {
+        "seatRow": "14",
+        "seatNumber": "A",
+        "seatType": "Window"
+      }
+    ]
+  },
+  "barcodes": [
+    {
+      "format": "PKBarcodeFormatPDF417",
+      "message": "SK042-A-7621-14A",
+      "messageEncoding": "iso-8859-1",
+      "altText": "SK 042 / 14A"
+    }
+  ],
+  "webServiceURL": "https://example.invalid/passkit",
+  "authenticationToken": "0000000000000000"
+}
